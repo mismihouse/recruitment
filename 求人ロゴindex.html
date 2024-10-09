@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会社名 - ホーム</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+    <img src="logo.png" alt="美住ハウス株式会社のロゴ" style="max-height: 100px; margin-bottom: 10px;">
+    <h1>美住ハウス株式会社</h1>
+    <nav>
+        <a href="index.html">ホーム</a>
+        <a href="jobs.html">求人情報</a>
+    </nav>
+</header>
+
+    <div class="container">
+        <h2>会社情報</h2>
+        <p><strong>会社名:</strong> 美住ハウス株式会社</p>
+        <p><strong>本社:</strong> 大阪市生野区中川4-12-15</p>
+        <p><strong>電話番号:</strong> 06-6757-1587</p>
+        <p><strong>代表取締役:</strong> 美登路　渡</p>
+        <p><strong>施工実績:</strong> <iframe src="https://drive.google.com/file/d/1N6Fd3JY3wkZcosE3MH4Ccz_h45tA-QZG/preview"></iframe>
+        </body>
+        </html>
+          
+    </div>
+
+    <footer>
+        <p>&copy; mismihouse.Inc. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>求人情報 - 美住ハウス株式会社</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .job-listing {
+            border-bottom: 1px solid #ddd;
+            padding: 20px 0;
+        }
+        .job-listing:last-child {
+            border-bottom: none;
+        }
+        .apply-button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+        .apply-button:hover {
+            background-color: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding-top: 60px;
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>求人情報</h1>
+        <p>一緒に働いてくれる仲間を募集しています！</p>
+    </header>
+
+    <div class="container">
+        <div class="job-listing">
+            <h2>職種名: 造園・土木作業員</h2>
+            <p><strong>勤務地:</strong> 〒544-0005 大阪府 大阪市 生野区 中川 4-12-15</p>
+            <p><strong>アクセス:</strong> 地下鉄今里筋線「今里駅」徒歩約15分/自転車で10分以内</p>
+            <p><strong>勤務時間・曜日:</strong> 9:00〜17:00※休憩2時間含む</p>
+            <p><strong>職務内容:</strong> 私たちは、関西圏を中心に以下の業務を行っています
+                住宅マンションや商業施設の植栽、管理
+                公園緑地内の草刈り
+                樹木の剪定や刈込
+                個人宅の緑地管理
+                公園の補修（遊具や樹木の植え替え等）
+                植栽計画の策定、植物の展示スペースのデザインと設計
+                これらの業務を通じて、美しい緑の環境を提供し、地域の皆様に喜ばれる空間づくりに貢献しています。</p>
+            <p><strong>求めるスキル:</strong> 【必須条件】普通自動車免許</p>
+            <p><strong>給与:</strong> 雇用形態:正社員
+                給与・報酬: 260,000円 - 400,000円 月給
+                平均所定労働時間（1か月当たり）: 190時間（経験に応じて）</p>
+            <p><strong>社会保険:</strong> 雇用保険、労災保険、健康保険、厚生年金</p>
+            <p><strong>休暇・休日:</strong> 週休2日制、大型連休休みあり</p>
+            <p><strong>アピールポイント:</strong> 私たちの造園会社では、自然と共に生きる喜びを分かち合えるフレッシュな仲間を募集しています！伝統的な技術を大切にしながら、四季折々の美しさを引き出すプロフェッショナルとして、お客様の理想の庭を実現するために日々努力しています。
+                弊社の社長は25歳で若いリーダーシップのもと、若いエネルギーと情熱で、革新的なリーダーシップを発揮し、フレッシュで活気あふれる職場環境を創り上げています。新しい風を吹かせるチャンスがここにあります！
+                
+                <button class="apply-button" onclick="showModal()">応募する</button>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span onclick="closeModal()" style="cursor:pointer; float:right;">&times;</span>
+            <h2>応募フォーム</h2>
+            <form id="applicationForm" onsubmit="sendEmail(event)">
+                <label for="applicantName">氏名:</label>
+                <input type="text" id="applicantName" required><br><br>
+                <label for="applicantEmail">メールアドレス:</label>
+                <input type="email" id="applicantEmail" required><br><br>
+                <label for="applicantPhone">電話番号:</label>
+                <input type="text" id="applicantPhone" required><br><br>
+                <label for="applicantPR">自己PR:</label>
+                <textarea id="applicantPR" required></textarea><br><br>
+                <p>メール画面にて履歴書を添付してください。</p>
+                <input type="submit" value="送信">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; mismihouse.Inc. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function showModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        function sendEmail(event) {
+            event.preventDefault();
+            const name = document.getElementById("applicantName").value;
+            const email = document.getElementById("applicantEmail").value;
+            const phone = document.getElementById("applicantPhone").value;
+            const pr = document.getElementById("applicantPR").value;
+
+            const subject = encodeURIComponent("求人応募");
+            const body = encodeURIComponent(`氏名: ${name}\nメールアドレス: ${email}\n電話番号: ${phone}\n自己PR: ${pr}\n履歴書を添付してください。`);
+
+            const mailtoLink = `mailto:mismi.house@gmail.com?subject=${subject}&body=${body}`;
+            window.location.href = mailtoLink;
+
+            closeModal();
+        }
+    </script>
+
+</body>
+</html>
